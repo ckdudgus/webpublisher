@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+p{
+    font-family: 'Dongle', sans-serif;
+}
+strong{
+    font-family: 'Dongle', sans-serif;
+}
+h2{
+    font-family: 'Nanum Gothic', sans-serif;
+}
