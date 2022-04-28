@@ -3,57 +3,58 @@
   padding: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .section {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1903px;
   background: linear-gradient(#f8edb1, #beecd2);
-  height: 850px;
 }
 
-.section .container {
-  height: 968px;
+.section .mainrow {
+  transform: translate(8%, 15%);
 }
 
-.section .container .center {
-  margin: 5.5rem auto;
+.section .mainrow .center {
+  transform: translateY(-10%);
 }
 
-.section .container #maintext {
-  margin: 30px;
-}
-
-.section .container #calendar {
-  margin: auto;
-  transform: translateX(14%);
-}
-
-.section .container .mon {
+.section .mainrow .center .mon {
   border-radius: 35px;
-  border: 2px solid #222;
   background-color: #3de28f;
-  margin: 0 auto;
-  padding: 3px;
+  border: 2px solid #222;
   width: 30%;
+  margin: auto;
+  transform: translateX(-5%);
 }
 
-.section .container .mon h2 {
-  text-align: center;
+.section .mainrow .center .mon h2 {
   font-weight: bold;
+  margin-top: 5px;
 }
 
-.section .container .text {
-  margin-top: 40px;
+.section .mainrow .center #maintext {
+  transform: translate(-1%, 10%);
 }
 
-.section .container .text p {
-  font-size: 40px;
-  line-height: 2.5rem;
+.section .mainrow .center #calendar {
+  transform: translate(13%, 30%);
+  margin: 0 auto;
 }
 
-.section .container .circle {
-  transform: translate(320%, -68%);
+.section .mainrow .center .text {
+  transform: translate(-1%, 70%);
+}
+
+.section .mainrow .center .text p {
+  font-size: 35px;
+}
+
+.section .mainrow .circle {
+  transform: translate(260%, -20%);
 }
 
 .section #lefttree {
@@ -65,14 +66,14 @@
 
 .section #righttree {
   right: 0;
-  transform: translateY(20%);
+  transform: translateY(10%);
   width: 32%;
   padding: 0;
 }
 
 .section #people {
-  transform: translate(70%, 66%);
-  width: 23%;
+  transform: translate(75%, 59%);
+  width: 22%;
   z-index: 99;
 }
 
@@ -136,7 +137,6 @@ ul {
 }
 
 .event {
-  width: 1903px;
   height: 850px;
   background-color: #fff7e9;
 }
@@ -157,7 +157,7 @@ ul {
   margin: 0 auto;
   transform: translateY(65px);
   padding: 5px;
-  text-align: center;
+  border-radius: 10px;
 }
 
 .event .login h2 {
@@ -181,7 +181,6 @@ ul {
 .event .coupon h2 {
   font-family: 'Do Hyeon', sans-serif;
   font-size: 25px;
-  text-align: center;
   padding: 20px;
 }
 
@@ -379,7 +378,7 @@ ul {
   height: 50px;
   margin: 5px auto;
   padding: 5px;
-  text-align: center;
+  border-radius: 10px;
 }
 
 .event2 .travel .application h2 {

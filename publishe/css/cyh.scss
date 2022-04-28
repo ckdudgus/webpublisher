@@ -3,48 +3,83 @@
     padding: 0;
 }
 
+html{
+    overflow-x: hidden;
+}
 
 // section1
 .section{
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1903px;
     background:  linear-gradient( #f8edb1, #beecd2);
-    height: 850px;
-    .container{
-        height: 968px;
+    // width: 1903px;
+    // height: 850px;
+    // .container{
+    //     height: 968px;
+    //     .center{
+    //         margin: 5.5rem auto;
+    //     }
+    //     #maintext{
+    //         margin: 30px;
+    //     }
+    //     #calendar{
+    //         margin: auto;
+    //         transform: translateX(14%);
+    //     }
+    //     .mon{
+    //         border-radius: 35px;
+    //         border: 2px solid #222;
+    //         background-color: #3de28f;
+    //         margin: 0 auto;
+    //         padding: 3px;
+    //         width: 30%;
+    //         h2{
+    //             font-weight: bold;
+    //             margin: 0;
+    //         }
+    //     }
+    //     .text{
+    //         margin-top: 5.5rem;
+    //         p{
+    //             font-size: 45px;
+    //             line-height: 3rem;
+    //         }
+    //     }
+    //     
+    // }
+    .mainrow{
+        transform: translate(8%,15%);
         .center{
-            margin: 5.5rem auto;
-        }
-        #maintext{
-            margin: 30px;
-        }
-        #calendar{
-            margin: auto;
-            transform: translateX(14%);
-        }
-        .mon{
-            border-radius: 35px;
-            border: 2px solid #222;
-            background-color: #3de28f;
-            margin: 0 auto;
-            padding: 3px;
-            width: 30%;
-            h2{
-                text-align: center;
-                font-weight: bold;
+            transform: translateY(-10%);
+            .mon{
+                border-radius: 35px;
+                background-color: #3de28f;
+                border: 2px solid #222;
+                width: 30%;
+                margin: auto;
+                transform: translateX(-5%);
+                h2{
+                    font-weight: bold;
+                    margin-top: 5px;
+                }
             }
-        }
-        .text{
-            margin-top: 40px;
-            p{
-                font-size: 40px;
-                line-height: 2.5rem;
+            #maintext{
+                transform: translate(-1%,10%);
+            }
+            #calendar{
+                transform: translate(13%,30%);
+                margin: 0 auto;
+            }
+            .text{
+                transform: translate(-1%,70%);
+                p{
+                    font-size: 35px;
+                }
             }
         }
         .circle{
-            transform: translate(320%,-68%);
+            transform: translate(260%,-20%);
         }
     }
     #lefttree{
@@ -55,13 +90,13 @@
     }
     #righttree{
         right: 0;
-        transform: translateY(20%);
+        transform: translateY(10%);
         width: 32%;
         padding: 0;
     }   
     #people{
-        transform: translate(70%,66%);
-        width: 23%;
+        transform: translate(75%,59%);
+        width: 22%;
         z-index: 99;
     }
 }
@@ -121,7 +156,7 @@ article{
 
 // section2
 .event{
-    width: 1903px;
+    // width: 1903px;
     height: 850px;
     background-color: #fff7e9;
     .mainevent{
@@ -138,7 +173,7 @@ article{
         margin: 0 auto;
         transform: translateY(65px);
         padding: 5px;
-        text-align: center;
+        border-radius: 10px;
         h2{
             cursor: pointer;
             a{
@@ -156,7 +191,6 @@ article{
         h2{
             font-family: 'Do Hyeon', sans-serif;
             font-size: 25px;
-            text-align: center;
             padding: 20px;
         }
         .jum{
@@ -339,7 +373,8 @@ article{
             height: 50px;
             margin: 5px auto;
             padding: 5px;
-            text-align: center;
+            // text-align: center;
+            border-radius: 10px;
             h2{
                 cursor: pointer;
             }
